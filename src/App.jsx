@@ -3,7 +3,7 @@
 
 import { Suspense } from 'react'
 import './App.css'
-import Countrys from './countrys'
+import Countrys from './coountry/Countrys'
 
 
 
@@ -15,8 +15,10 @@ function App(){
  
   return (
     <>
-      <h4>this is our world country</h4>
-      <Countrys></Countrys>
+      <div className='p-2 md:pl-50'>
+        
+      <Countrys ></Countrys>
+      </div>
 {/* 
       <Suspense fallback={"country info loading...."}>
 
